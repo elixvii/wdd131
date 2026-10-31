@@ -114,54 +114,6 @@ h1 {
     line-height: 1.8;
 }
 
-
-/* NAVIGATION MENU */
-
-nav {
-    background-color: #252329;
-    width: 100%;
-}
-
-h1 {
-    background-color: #F8F7F4;
-    padding: 1rem;
-    font-size: 2rem;
-    text-align: center;
-}
-
-.navlists {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-}
-
-.navlists li {
-    flex: 1 1 auto;
-}
-
-.navlists li a {
-    transition: all 0.7s ease;
-}
-
-.navlists a {
-    font-weight: 600;
-    display: block;
-    color: #FFFFFE;
-    padding: 1.2rem;
-    text-decoration: none;
-    text-align: center;
-    font-size: 15px;
-}
-
-.navlists a:hover {
-    background-color: #7966E8;
-    color: #FFFFFF
-}
-
 /* CONTENEDOR WEB DEV RESOURCES */
 
 .cards-container {
