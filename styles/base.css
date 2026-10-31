@@ -45,6 +45,10 @@ h1 {
     padding: 1rem;
     font-size: 2rem;
     text-align: center;
+    color: #252329;
+    font-family: "Figtree", sans-serif;
+    font-weight: 600;
+
 }
 
 .navlists {
@@ -87,12 +91,6 @@ main {
     margin: 1.5rem auto;
     padding: 0 1rem;
     width: 90%;
-}
-
-h1 {
-    color: #252329;
-    font-family: "Figtree", sans-serif;
-    font-weight: 600;
 }
 
 /* CONTENEDORES*/
