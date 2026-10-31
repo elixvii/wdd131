@@ -1,0 +1,210 @@
+/* BASIC LAYOUT */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    background-color: #F8F7F4;
+    color: #252329;
+}
+
+/* HEADER */
+
+header {
+    background-color: #315C45;
+    color: #fffefe;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Figtree", sans-serif;
+    font-weight: 600;
+}
+
+#course-title {
+    display: block;
+    padding: 1rem;
+}
+
+header a {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* MAIN CONTENT */
+
+main {
+    max-width: 1400px;
+    margin: 1.5rem auto;
+    padding: 0 1rem;
+    width: 90%;
+}
+
+h1 {
+    color: #252329;
+    font-family: "Figtree", sans-serif;
+    font-weight: 600;
+}
+
+/* CONTENEDORES*/
+
+.card {
+    background-color: #FFFFFF;
+    border: 1px solid #E8E7E3;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card h2 {
+    background-color: #DDE8DC;
+    color: #315C45;
+    padding: 0.8rem;
+    margin: 0;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: "Figtree", sans-serif;
+}
+
+/* INTRODUCTION */
+.about-me {
+    padding: 1rem;
+    line-height: 1.6;
+}
+
+.profile-image {
+    float: right;
+    width: 125px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0 0 1rem 1rem;
+}
+
+.about-me h3 {
+    text-align: center;
+    border-bottom: 1px solid #E8E7E3;
+    padding-bottom: 0.5rem;
+    clear: both;
+    width: 80%;
+}
+
+/* COUNTRY LOCATION */
+
+.location {
+    display: grid;
+    align-items: center;
+    gap: 0rem;
+    grid-template-columns: 1fr 2fr;
+}
+
+.location img {
+    width: 100%;
+    max-width: 150px;
+    border: 1px solid #E8E7E3;
+}
+
+.location figcaption {
+    font-size: 0.85rem;
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+.location p {
+    max-width: 25rem;
+    line-height: 1.8;
+}
+
+
+/* NAVIGATION MENU */
+
+nav {
+    background-color: #252329;
+    width: 100%;
+}
+
+h1 {
+    background-color: #F8F7F4;
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.navlists {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navlists li {
+    flex: 1 1 auto;
+}
+
+.navlists li a {
+    transition: all 0.7s ease;
+}
+
+.navlists a {
+    font-weight: 600;
+    display: block;
+    color: #FFFFFE;
+    padding: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+}
+
+.navlists a:hover {
+    background-color: #7966E8;
+    color: #FFFFFF
+}
+
+/* CONTENEDOR WEB DEV RESOURCES */
+
+.cards-container {
+    padding: 1.9rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+}
+
+.card ul {
+    padding: 4rem 1rem 1rem 2.5rem;
+}
+
+.card li {
+    margin-bottom: 0.7rem;
+}
+
+.card li a {
+    color: #7966E8;
+    transition: all 0.3s ease;
+}
+
+.card li a:hover {
+    color: #315C45;
+    text-decoration: underline;
+}
+
+/* FOOTER */
+
+footer {
+    background: #315C45;
+    color: white;
+    padding: 1rem;
+    min-height: 100px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+#lastModified {
+    font-size: 0.8rem;
+    color: #fcfcfc;
+}
