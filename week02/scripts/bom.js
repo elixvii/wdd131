@@ -16,7 +16,7 @@ buttonElement.addEventListener('click', function () {    // Check if the user en
         deleteButton.textContent = "❌";
         deleteButton.addEventListener("click", function () { //Add an event listener to the delete button that removes the li element when clicked
             listElement.removeChild(li);
-            inputElement.focus(); 
+            inputElement.focus();
         });
         li.appendChild(deleteButton);
         listElement.appendChild(li); //Append the li element variable to the unordered list in your HTML.

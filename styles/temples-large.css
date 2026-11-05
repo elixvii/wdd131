@@ -1,0 +1,43 @@
+@media screen and (min-width: 500px) {
+    header {
+        background-color: #315C4B;
+        color: #ffffff;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    site-title {
+        font-size: 1.5rem;
+
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+
+    nav a {
+        padding: 1rem;
+        font-size: 1.2rem;
+        color: #ffffff;
+    }
+
+    nav {
+        flex-basis: auto;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .container {
+        max-width: 1600px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1.75rem 1rem;
+    }
+
+}

@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Figtree", sans-serif;
+    background-color: #F4F7F4;
+    color: #26352E;
+}
+
+/* HAMBURGER MENU (The hamburger button should only show in the mobile view.) */
+
+#menu {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0.25rem 0.5rem;
+    color: #ffffff;
+    cursor: pointer;
+    background:none;
+    border:none;
+}
+
+#menu::before {
+    content: "≡";
+}
+
+#menu.show::before {
+    content: "X";
+}
+
+/* HEADER */
+
+header {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #315C4B;
+    color: #ffffff;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: "Figtree", sans-serif;
+}
+
+/* NAVIGATION MENU */
+
+nav {
+    flex-basis: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: none;
+    flex-direction: column;
+}
+
+nav ul.show {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav li a {
+    transition: all 0.5s ease;
+}
+
+nav a:hover {
+    background-color: #81B29A;
+    color: #26352E;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #26352E;
+    padding: 0.5rem 0;
+
+}
+
+/* MAIN CONTENT */
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+main h1 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1.5rem 0;
+}
+
+/* CONTENEDORES*/
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+section {
+    margin: 1rem auto;
+    max-width: 860px;
+    padding: 0.5rem;
+}
+
+figure{
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    display: block;
+    aspect-ratio: 1.6 / 1;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #315C4B;
+    color: #ffffff;
+    padding: 0.75rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0.25rem 0;
+    font-size: 0.9rem;
+}
+
+#lastModified {
+    font-size: 0.8rem;
+    color: #fcfcfc;
+}
