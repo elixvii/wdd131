@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"WDD 131 - Country Page - Eliana Baldo"</title>
+    <meta name="description"
+        content="This page is designed to show the country where wish to visit using HTML, CSS And JavaScript.">
+    <meta name="author" content="Eliana Jose Baldo Ugas">
+    <link rel="stylesheet" href="week03/styles/place.css">
+    <link rel="stylesheet" href="/week03/styles/place-large.css">
+    <script defer src="week03/scripts/place.js"></script>
+</head>
+
+<body>
+    <header>
+        <span id="course-title">Japan</span>
+    </header>
+
+    <main>
+
+        <div class="hero">
+            <picture>
+                <source srcset="/week03/images/japan-large.webp" media="(min-width: 1000px)">
+                <img src="/week03/images/japan-small.webp" alt="Cherry Blossoms in Japan">
+            </picture>
+        </div>
+
+        <section class="card">
+            <h1>Data</h1>
+            <div class="card-content">
+                <p><strong>Area:</strong> 377,975 sq km</p>
+                <p><strong>Population:</strong> 123,800,000</p>
+                <p><strong>Capital:</strong> Tokyo</p>
+                <p><strong>Languages:</strong> Japanese</p>
+                <p><strong>Currency:</strong> Japanese Yen</p>
+                <p><strong>Time Zone:</strong> UTC+9</p>
+                <p><strong>Calling Code:</strong> +81</p>
+                <p><strong>Internet TLD:</strong> .jp</p>
+            </div>
+        </section>
+
+        <section class="card weather">
+            <h1>Weather</h1>
+            <div class="weather-icon">
+                <img src="week03/images/weather.svg" alt="Weather icon">
+            </div>
+
+            <div class="card-content">
+                <p><strong>Temperature:</strong> 19 °C</p>
+                <p><strong>Conditions:</strong> Sunny</p>
+                <p><strong>Wind:</strong> 6 km/h</p>
+                <p><strong>Wind Chill:</strong> <span id="windChill">N/A</span>
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentYear"></span> 🪴Eliana Jose Baldo Ugas🪴 Spain
+        </p>
+
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
