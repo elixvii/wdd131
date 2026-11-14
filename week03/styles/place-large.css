@@ -23,7 +23,7 @@
         z-index: 2;
     }
 
-    .card h1 {
+    .card h2 {
         background-color: #773C30;
         color: white;
         text-align: left;
@@ -52,7 +52,7 @@
         display: none;
     }
 
-    .weather h1::after {
+    .weather h2::after {
         content: " ⛅";
         margin-left: 1rem;
         font-size: 1.7rem;
