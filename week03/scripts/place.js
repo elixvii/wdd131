@@ -19,3 +19,13 @@ if (temperature <= 10 && windSpeed > 4.8) {
 }
 
 document.getElementById("windChill").textContent = windChill;
+
+/**
+let names = ['Nancy', 'Blessing', 'Jorge', 'Svetlana', 'Bob'];
+let namesB = names.filter(name => namecharAt(0) === 'B');
+
+let names = ['Nancy', 'Blessing', 'Jorge', 'Svetlana', 'Bob'];
+let namesLengths = names.map((name) => name.length); **/
+
+names.reduce((total, name) => total + name.length, 0) / names.length;
+

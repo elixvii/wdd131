@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"WDD 131 - Lazyloading Images - Eliana Baldo"</title>
+    <meta name="description"
+        content="This page is a personal portfolio, showcasing my hobbies, a description of where I live and other web development resources.">
+    <meta name="author" content="Eliana Jose Baldo Ugas">
+    <link rel="stylesheet" href="styles/lazyload.css">
+    <script defer src="scripts/lazyload.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Lazy loading Images
+        </h1>
+    </header>
+    <main>
+        <div class="img">
+            <picture>
+                <img src="/week03/images/japan-small.webp" alt="Tallahassee Florida" loading="lazy" width="400"
+                    height="500">
+            </picture>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia sed aliquid alias iste cupiditate
+                deleniti, unde
+                vitae architecto! Distinctio,
+                dicta, veniam nostrum nemo nam, soluta vero consequuntur aliquid maiores explicabo eius quidem!
+                Repudiandae
+                vitae odit, perferendis
+                debitis quam quis modi expedita excepturi impedit quae ratione. Impedit, et laborum saepe iste
+                veniam porro
+                optio eius ipsum dolores iusto
+                mollitia, odio sunt dignissimos dolor enim facere. Atque velit non cumque labore eligendi nulla illo
+                ab pariatur
+                quo? Voluptatibus fugit iste
+                unde reiciendis aliquid consequuntur doloremque alias non maiores aspernatur vel illum at
+                praesentium minus
+                blanditiis voluptates voluptate
+                incidunt architecto, molestias officia ducimus.</p>
+            <picture>
+                <img src="/week03/images/japan-large.webp" alt="Tallahassee Florida" loading="lazy" width="400"
+                    height="700">
+            </picture>
+            <picture>
+                <img src="/week03/images/hero-medium.webp" alt="Tallahassee Florida" loading="lazy" width="400"
+                    height="660">
+            </picture>
+            <picture>
+                <img src="/week03/images/hero-small.webp" alt="Tallahassee Florida" loading="lazy" width="400"
+                    height="800">
+            </picture>
+            <picture>
+                <img src="/images/temple.jpg" alt="Tallahassee Florida" loading="lazy" width="400"
+                    height="790">
+            </picture>
+            <picture>
+                <img src="/images/spain.jpg" alt="Tallahassee Florida" loading="lazy" width="400"
+                    height="850">
+            </picture>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentYear"></span> 🪴Eliana Jose Baldo Ugas🪴 Spain
+        </p>
+
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
