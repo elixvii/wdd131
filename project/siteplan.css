@@ -126,6 +126,13 @@ section {
     background-color: var(--sage);
 }
 
+.wireframe-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1rem auto;
+}
+
 footer {
     background-color: var(--charcoal);
     color: var(--white);
