@@ -85,6 +85,14 @@ section {
     border-radius: 8px;
 }
 
+.serif-font {
+    font-family: "Noto Serif JP", serif;
+}
+
+.sans-font {
+    font-family: "Noto Sans", sans-serif;
+}
+
 .logo {
     color: var(--red);
     font-family: "Noto Serif JP", serif;
